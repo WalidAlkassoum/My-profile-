@@ -1,0 +1,216 @@
+/*heading*/
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: azure;
+    overflow-x: hidden;
+}
+.heading{
+    
+    width: 100%;
+    height: 250px;
+    padding: 20px 100px;
+    background-color: black;
+    box-shadow: 0px 10px 10px rgba(79, 219, 32, 0.3);
+    display: grid;
+    
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 2000px) {
+    /*container*/
+    .container{
+    width: 700px;
+    margin: 10px auto;
+   
+}
+    
+    .heading img {
+        width: 110px;
+        height: 110px;
+        border-radius: 110px;
+        grid-row: 1/2;
+        grid-column: 2/2;
+       
+        }
+        .heading > h3,h1{
+            
+            font-family: "Jersey 20", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            color: azure;
+            font-size: large;
+            
+            }
+/* content --- header */
+.content h4,h5{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    
+
+}
+h3{
+    font-size: large;
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(59, 75, 75);
+}
+.footer > h3{
+    font-family: "jersey20",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    color: aliceblue;
+    padding: 0 10%;
+    display: inline;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+   /*container*/
+   .container{
+    width: 350px;
+    margin: 10px auto;
+
+}
+    
+    .heading img {
+        width: 55px;
+        height: 55px;
+        border-radius: 55px;
+        grid-row: 1/2;
+        grid-column: 2/2;
+       
+        }
+        .heading > h3,h1{
+            
+            font-family: "Jersey 20", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            color: azure;
+            font-size: medium;
+            
+            } 
+/* content --- header */
+.content h4,h5{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    
+
+}   
+h3{
+    font-size: medium;
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(59, 75, 75);
+}
+.footer > h3{
+    font-family: "jersey20",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    color: aliceblue;
+    padding: 0 10%;
+    display: inline;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    /*container*/
+    .container{
+        width: 175px;
+        margin: 10px auto;
+    }
+
+    .heading > h3,h1{
+            
+        font-family: "Jersey 20", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color: azure;
+        font-size: small;
+        
+        }
+        .heading img {
+            width: 22px;
+            height: 22px;
+            border-radius: 22px;
+            grid-row: 1/2;
+            grid-column: 2/2;
+           
+            }
+/* content --- header */
+.content h4,h5{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+    
+
+}
+h3{
+    font-size: small;
+}
+.footer{
+    margin-top: 10px;
+    background-color: rgb(59, 75, 75);
+}
+.footer > h3{
+    font-family: "jersey20",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+    color: aliceblue;
+    padding: 0 10%;
+    display: inline;
+}
+   
+}
+    
+    
+
+
+
+/*gridding*/
+    #name{
+        grid-row: 1/2;
+        grid-column: 4/11;
+    }
+    #heading-d{
+        grid-row: 2/3;
+        grid-column: 4/7;
+    }
+    #heading-l{
+        grid-row: 2/3;
+        grid-column: 8/11;
+    }
+
+
+
+
+
+
+
+
+
